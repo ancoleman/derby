@@ -47,7 +47,7 @@ Edit them to reflect Access Accounts available, and regions in scope. Save the e
 
 ### Workflow
 
-- Modify ```terraform.auto.tfvars.template``` _(i.e. access accounts, regions, cidrs, etc.)_ and save the file as ```terraform.auto.tfvars```
+- Modify ```terraform.auto.tfvars``` _(i.e. YOUR AWS access account name, regions, cidrs, etc.)_ and save the file as ```terraform.auto.tfvars```
 - ```terraform init```
 - ```terraform plan```
 - ```terraform apply --auto-approve```
